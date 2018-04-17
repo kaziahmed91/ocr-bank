@@ -1,0 +1,24 @@
+{
+  "name": "ocr-bank",
+  "version": "1.0.0",
+  "description": "Process OCR bank output",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register test/test.js",
+    "build": "babel --presets env -- index.js",
+    "start": "babel-node --presets env -- index.js"
+  },
+  "author": "josiah.sprague@gmail.com",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "mocha": "^5.1.0"
+  }
+}
