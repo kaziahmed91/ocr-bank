@@ -3,7 +3,9 @@
 ## Installation
 
 ```bash
-npm install --save https://github.com/localjo/ocr-bank
+git clone https://github.com/localjo/ocr-bank.git
+cd ocr-bank
+npm install
 ```
 
 ## Usage
@@ -16,6 +18,8 @@ parseAccountFile(fs.readFileSync('input.txt', 'utf-8'));
 ```
 
 ## Tests
+
+Run tests to verify the solution:
 
 ```bash
 npm test
